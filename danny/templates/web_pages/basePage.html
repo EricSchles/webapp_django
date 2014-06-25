@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+{% include "web_pages/header.html" %}
+</head>
+
+<body>
+
+{% include "web_pages/topNavBar.html" %}
+
+<div id="content">
+    {% block content %}{% endblock %}
+</div>
+
+{% include "web_page/footer/html" %}
+
+</body>
+
+</html>
